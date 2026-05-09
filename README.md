@@ -148,11 +148,22 @@ The interactive dashboard includes:
 
 ---
 
+# 📷 Dashboard Preview
+![Dashboard](Dashboard/Funnel_dashboard.png)
+
+---
+
 # Project Structure
+
+---
 
 ```text
 FUTURE_DS_03/
-│
+|
+├── Dashboard/
+│   ├── Funnel_dashboard.png
+│   └── PowerBI_dashboard.pbix
+|
 ├── Data/
 │   ├── marketing_funnel_sample.csv
 │   └── cleaned_marketing_funnel.csv
@@ -162,9 +173,15 @@ FUTURE_DS_03/
 │   ├── 02_funnel_analysis.ipynb
 │
 ├── Report/
-│   ├── 
-│   └── marketing_funnel_Report.pdf
-│
-├── Report/
-│   ├── dashboard.png
-│   └── Report.pdf
+│   └── Marketing_Funnel_Report.pdf
+|
+├── README.md
+
+---
+
+# 🚀 How to Run the Project
+
+## Python Analysis
+1. Install required libraries:
+```bash
+pip install pandas numpy matplotlib
