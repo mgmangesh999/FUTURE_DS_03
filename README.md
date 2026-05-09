@@ -177,11 +177,3 @@ FUTURE_DS_03/
 |
 ├── README.md
 
----
-
-# 🚀 How to Run the Project
-
-## Python Analysis
-1. Install required libraries:
-```bash
-pip install pandas numpy matplotlib
